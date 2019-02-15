@@ -5,11 +5,12 @@
  */
 body {
   padding-top: 30px;
-  background: black;
+  background-image: url('../img/background3.png');
   color: #f1f1f1;
   font-family: 'Inconsolata', monospace;
   font-size: 15px;
-  border: 15px solid white;
+  /* border: 15px solid #f5f5f5; */
+  /*margin:20px;*/
 }
 
 .navbar-brand {
@@ -28,15 +29,16 @@ body {
 
 .card {
 	background: black;
-	border: 0.5px solid;
+	border: 1px dashed;
 }
 
 .bg-dark {
-	background: transparent !important;
+	background: black !important;
 }
 
 footer {
 	font-size: 13px;
+	border-top: 1.5px dashed #f1f1f1;
 }
 
 em {
@@ -46,8 +48,6 @@ em {
   position: relative;
   background: white;
   background: linear-gradient(to right, mediumturquoise, mediumpurple);
-  -webkit-transform: skewX(-10deg);
-          transform: skewX(-10deg);
   display: inline-block;
 }
 
@@ -55,8 +55,31 @@ em {
 	background-color: transparent;
 }
 
+.btn-primary {
+	color: #fff;
+	background-color: transparent;
+	border-color: #f1f1f1;
+  border: 1px dashed;
+  position: absolute;
+  margin-bottom: 15px;
+  bottom: 0;
+}
+
+.btn-primary:hover {
+	background-color: yellow;
+	color: black;
+	border-color: #f1f1f1;
+  border: 1px dashed;
+}
+
+.card-body {
+  height: 370px;
+  border-top: 1px dashed #f1f1f1;
+  position: relative;
+}
+
 @media (min-width: 1200px) {
 .container {
-max-width: 900px;
+max-width: 1200px;
 }
 }
