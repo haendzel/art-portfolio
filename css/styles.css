@@ -1,0 +1,62 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+body {
+  padding-top: 30px;
+  background: black;
+  color: #f1f1f1;
+  font-family: 'Inconsolata', monospace;
+  font-size: 15px;
+  border: 15px solid white;
+}
+
+.navbar-brand {
+	padding: 10px;
+	margin: 2px;
+}
+
+.navbar {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    border: 1.5px dashed #f1f1f1;
+    margin-bottom: 50px;
+}
+
+.card {
+	background: black;
+	border: 0.5px solid;
+}
+
+.bg-dark {
+	background: transparent !important;
+}
+
+footer {
+	font-size: 13px;
+}
+
+em {
+  font-style: normal;
+  padding: 0.1em 0.3em;
+  border-radius: 0.2em;
+  position: relative;
+  background: white;
+  background: linear-gradient(to right, mediumturquoise, mediumpurple);
+  -webkit-transform: skewX(-10deg);
+          transform: skewX(-10deg);
+  display: inline-block;
+}
+
+.page-link {
+	background-color: transparent;
+}
+
+@media (min-width: 1200px) {
+.container {
+max-width: 900px;
+}
+}
