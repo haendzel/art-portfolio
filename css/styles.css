@@ -47,7 +47,7 @@ em {
   border-radius: 0.2em;
   position: relative;
   background: white;
-  background: linear-gradient(to right, mediumturquoise, mediumpurple);
+  color: black;
   display: inline-block;
 }
 
@@ -73,10 +73,16 @@ em {
 }
 
 .card-body {
-  height: 370px;
+  height: 400px;
   border-top: 1px dashed #f1f1f1;
   position: relative;
 }
+
+.about {
+  height: auto;
+}
+
+.
 
 @media (min-width: 1200px) {
 .container {
