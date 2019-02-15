@@ -28,7 +28,7 @@ body {
 
 .card {
 	background: black;
-	border: 2px solid;
+	border: 0.5px solid;
 }
 
 .bg-dark {
@@ -53,4 +53,10 @@ em {
 
 .page-link {
 	background-color: transparent;
+}
+
+@media (min-width: 1200px) {
+.container {
+max-width: 900px;
+}
 }
