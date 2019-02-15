@@ -1,8 +1,8 @@
 {
-    "title": "Blog Home",
-    "name": "startbootstrap-blog-home",
-    "version": "4.1.2",
-    "description": "A basic blog homepage HTML template built with Bootstrap",
+    "title": "Filip Handzel - new media arist",
+    "name": "filiphandzel",
+    "version": "1.0",
+    "description": "Portfolio for polish new media artist Filip Handzel",
     "keywords": [
         "css",
         "sass",
@@ -11,19 +11,19 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/blog-home",
+    "homepage": "https://filiphandzel.pl",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-blog-home/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://filiphandzel.pl",
+        "email": "f.handzel@gmail.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Filip Handzel",
     "contributors": [
         "David Miller (http://davidmiller.io/)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-blog-home.git"
+        "url": "https://github.com/haendzel/art-portfolio"
     },
     "dependencies": {
         "bootstrap": "4.2.1",
