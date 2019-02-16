@@ -99,6 +99,10 @@ background-color: black;
 border: 1px dashed white;
 }
 
+.info-modal {
+  padding: 30px;
+}
+
 
 @media (min-width: 1900px) {
 }
