@@ -7,7 +7,14 @@ body {
   /* border: 15px solid #f5f5f5; */
   /*margin:20px;*/
 }
+.row {
+  display: inline-flex;
+}
 
+.flexi {
+  display: block;
+  width: 100%;
+}
 .container-fluid {
   height: 100vh;
 }
